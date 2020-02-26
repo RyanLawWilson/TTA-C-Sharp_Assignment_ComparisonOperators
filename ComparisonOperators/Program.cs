@@ -29,17 +29,9 @@ namespace ComparisonOperators
             Console.WriteLine("\nAnnual Salary 1: " + p1_salary.ToString());
             Console.WriteLine("Annual Salary 2: " + p2_salary.ToString());
 
-            if (p1_salary > p2_salary)
-            {
-                Console.Write("Does Person 1 make more money than Person 2?");
-                displayDotDotDot();
-                Console.WriteLine(p1_salary > p2_salary);
-            } else
-            {
-                Console.Write("Does Person 1 make more money than Person 2?");
-                displayDotDotDot();
-                Console.WriteLine(p1_salary < p2_salary);
-            }
+            Console.Write("Does Person 1 make more money than Person 2?");
+            displayDotDotDot();
+            Console.WriteLine(p1_salary > p2_salary);
 
             Console.WriteLine("\nThis is the end of the program.  Press ENTER.");
             Console.Read();
